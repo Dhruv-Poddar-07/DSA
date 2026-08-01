@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-void reverseArray(vector<int>& arr, int left, int right) {
+void reverseArray(vector<int> arr, int left, int right) {
     if (left >= right) return;
     swap(arr[left], arr[right]);
     reverseArray(arr, left + 1, right - 1);
