@@ -1,4 +1,4 @@
-// basic
+// basic recursion practice by calling a func again for use
 #include <iostream>
 using namespace std;
 
