@@ -1,3 +1,5 @@
+//to print divisors
+
 #include<iostream>
 #include<vector>
 #include<algorithm>
