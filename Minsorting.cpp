@@ -27,7 +27,7 @@ int main(){
 
     sort(arr,n);
     
-    cout<<"Arranged Array:-";
+    cout<<"Arranged Array:";
     for(int i = 0 ; i<n ; i++){
         cout<<arr[i]<<" ";
     }
