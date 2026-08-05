@@ -24,7 +24,13 @@ int main(){
     for(int i = 0 ; i<n ; i++){
         cin>>arr[i];
     }
+
+    sort(arr,n);
     
+    cout<<"Arranged Array:-";
+    for(int i = 0 ; i<n ; i++){
+        cout<<arr[i]<<" ";
+    }
 
     return 0;
 }
