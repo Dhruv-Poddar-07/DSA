@@ -24,7 +24,7 @@ int main(){
 
     bubble_sort(arr,n);
     
-    cout<<"Arranged Array:";
+    cout<<"Arranged Array using Bubble sort:";
     for(int i = 0 ; i<n ; i++){
         cout<<arr[i]<<" ";
     }
